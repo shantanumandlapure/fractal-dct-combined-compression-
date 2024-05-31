@@ -45,19 +45,19 @@ FractalImageCompression/
 ## Key Functions and Variables:
 
 Normalization Matrices (normar1): These matrices are used for quantization in DCT.
-Image Processing and Block Partitioning:
+
+**Image Processing and Block Partitioning:**
 
 T1, T: The input image.
 numrange, numdom: Sizes of the range and domain blocks.
-
 dct2, idct2: Functions for the Discrete Cosine Transform and its inverse.
-Compression Parameters:
+
+**Compression Parameters:**
 
 ss, quan, errr: Parameters for scaling, quantization, and error threshold.
-
 ym, hk, DDF, fdel: Various parameters for tracking the state of the compression process.
 
-Main Loop: The main loop iterates over the image, applying DCT and partitioning it into smaller blocks.
+**Main Loop:** The main loop iterates over the image, applying DCT and partitioning it into smaller blocks.
 
 ## License
 
