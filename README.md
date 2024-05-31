@@ -1,4 +1,4 @@
-# fractal-dct-combined-compression-
+# fractal-dct-combined-compression
 
 ##This repository contains a MATLAB-based implementation of fractal image compression using the Discrete Cosine Transform (DCT). It includes scripts for encoding and decoding images, as well as utility functions for domain transformations.
 
